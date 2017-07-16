@@ -36,7 +36,7 @@ export default class App extends Vue {
   isLoading = true
 
   mounted() {
-    setTimeout(() => { this.isLoading = false }, 5000)
+    setTimeout(() => { this.isLoading = false }, 1000)
   }
 }
 </script>
